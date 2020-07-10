@@ -26,6 +26,7 @@ To know more about Front End Mentor visit in: [link](https://www.frontendmentor.
 ## Getting Started
 
 To view what was made, follow this steps:
-1. Create or navigate to your preferencial folder;
-2. Clone this repository: `git clone https://github.com/andreserudo/articlePreview.git` 
-3. Open the file index.html in your preferencial browser or using the open live server extension in Visual Code.
+1. Open your terminal;
+2. Create or navigate to your preferencial folder;
+3. Clone this repository: `git clone https://github.com/andreserudo/articlePreview.git` 
+4. Open the file index.html in your preferencial browser or using the open live server extension in Visual Code.
