@@ -4,7 +4,11 @@
 
 ## Resume
 
-This is my solution to the Article Preview component challenge for [Frontend Mentor](https://www.frontendmentor.io/). To know more about the challenge please read more details in the next section.
+This is my solution to the Article Preview component challenge for [Frontend Mentor](https://www.frontendmentor.io/). 
+
+You can check this repository deployed [here](https://article-preview-umber.vercel.app/) with [Vercel](https://vercel.com/).
+
+To know more about the challenge please read more details in the next section.
 
 ## The challenge
 
