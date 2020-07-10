@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
+}
+
+.main .container{
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  margin: 30vh auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 6px 7px 4px 0 hsl(214, 17%, 51%);
+}
+
+.main .container img{
+  height: 300px;
+  height: 300px;
+
+  border-radius: 10px 0 0 10px;
+  
+}
+
+.main .container .content{
+  display: flex;
+  flex-direction: column;  
+
+  margin-left: 40px;
+
+  background-color: white;  
+}
+
+.main .container .content .info{
+  margin: 20px 0;
+  background-color: white;
+}
+
+.main .container .content .info h2, p{
+  background-color: white;  
+}
+.main .container .content .info h2{
+  color:hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+.main .container .content .info p {
+  margin-top: 10px;
+
+  font-size: 13px;
+  color: hsl(214, 17%, 51%);
+}
+
+.main .container .content .footer{
+  display: flex;
+  flex-direction: row;  
+
+  align-items: center;
+  justify-content: space-between;  
+
+  background-color: white;  
+}
+
+.main .container .content .personal {
+  display: flex;
+  flex-direction: row;
+
+  background-color: white;    
+}
+
+.main .container .content .footer .personal img{
+  height: 48px;
+  width: 48px;
+
+  border-radius: 50%;
+}
+
+.main .container .content .footer .personal .author{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 20px;
+
+  background-color: white;    
+}
+
+.main .container .content .footer .personal .author strong, p {
+  background-color: white;    
+  font-size: 13px;
+
+}
+
+.main .container .content .footer .personal .author strong {  
+  color:hsl(217, 19%, 35%);
+}
+
+.main .container .content .footer .personal .author p {
+  color: hsl(212, 23%, 69%);
+}
+
+.containerShare {
+  display: flex;
+  background-color: white;
+}
+
+.profileShare {
+  position: relative;
+  width: 48px;
+  margin: 0 1em;
+  height: 48px;
+  border-radius: 50%;
+  background: url('../images/icon-share.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  cursor: pointer;  
+  transition: 0.2s;
+  background-color:  hsl(210, 46%, 95%);
+}
+
+.profileShare:hover {
+  /* box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8; */
+}
+
+.contentShare {
+  position: absolute;
+  bottom: 50px; 
+  padding: 15px; 
+  min-width: 250px;
+  background-color:rgb(73, 85, 107);  
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+.profileShare:hover .contentShare {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-15%) translateY(0px);
+}
+
+.containerShare .profileShare .contentShare .headerShare {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color:rgb(73, 85, 107);
+}
+
+.containerShare .profileShare .contentShare .headerShare a {
+  background-color:rgb(73, 85, 107);
+}
+
+.containerShare .profileShare .contentShare .headerShare strong {
+  color: hsl(212, 23%, 69%);
+  background-color:rgb(73, 85, 107);
+}
+
+.containerShare .profileShare .contentShare .headerShare img {
+  height: 32px;
+  width: 32px;
+
+  background-color:rgb(73, 85, 107);
+}
+
+
+.contentShare a {
+  background-color:rgb(73, 85, 107);
+}
