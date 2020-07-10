@@ -169,7 +169,7 @@
   margin: 0 1em;
   height: 48px;
   border-radius: 50%;
-  background: url('../images/icon-share.svg');
+  background: url('./assets/icon-share.svg');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
